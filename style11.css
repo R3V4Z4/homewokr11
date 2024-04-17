@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+.form-div {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+}
+.error-text {
+  color:red;
+}
+
+form {
+  max-width: 600px;
+  width: 100%;
+}   
+
+.waza{
+  position:absolute;
+  right:20px;
+}
+
+.inpt{
+ position: relative;
+ width: 300px;
+}

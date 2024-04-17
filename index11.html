@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style11.css" />
+  </head>
+  <body>
+    <section>
+      <form action="" id="login" method="POST">
+        <div class="form-div">
+          <label for="userfield">Username</label>
+          <input type="text" name="username" id="userfield" />
+          <p class="error-text" id="error-username"></p>
+        </div>
+        <div class="form-div">
+          <label for="passwfield">Password</label>
+          <input type="password" name="passw" id="passwfield" class="inpt" />
+          <button id="show">show</button>
+          <p class="error-text" id="error-passw"></p>
+        </div>
+        <div class="form-div">
+          <label for="">Repeat Password</label>
+          <input type="password" name="passw2" id="passw2field" />
+          <p class="error-text" id="error-passw2"></p>
+        </div>
+        <div>
+          <input type="radio" name="gender" class="radio-gender" />
+          <label for="">Male</label>
+          <input type="radio" name="gender" class="radio-gender" />
+          <label for="">Female</label>
+          <p class="error-text" id="error-gender"></p>
+        </div>
+        <div>
+          <input type="checkbox" name="agree" id="checkagree" />
+          <label for="">I agree terms and conditions</label>
+          <p class="error-text" id="error-agree"></p>
+        </div>
+
+        <button type="submit">რეგისტრაცია</button>
+      </form>
+    </section>
+
+    <script src="script11.js"></script>
+  </body>
+</html>
